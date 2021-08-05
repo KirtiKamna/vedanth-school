@@ -1,0 +1,36 @@
+body{
+    background-image: url(images.jpg );
+    background-repeat: repeat;
+    background-size: 1px;
+    
+}
+.box1{
+  
+padding-top: 100px;
+  align-items: center;
+}
+h1{
+font-size:70x;
+
+text-decoration: underline;
+
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;   
+}
+.icon{
+    position:relative
+}
+.icon img{
+    padding: 30px;
+    margin-left:  150px;
+    margin-right: 150px;
+}
+.icon p{
+    margin-left: 80px;
+    margin-top: 0px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
